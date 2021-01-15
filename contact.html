@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.typekit.net/qdy8lhk.css">
+<link rel="stylesheet" href="https://use.typekit.net/qdy8lhk.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">  
+<link href="https://fonts.googleapis.com/css2?family=Langar&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div id="container">
+  <header></header>
+  <nav>
+	<ul>
+		    <li><a href="index.html">Home</a> </li>
+		    <li><a href="aboutMe.html">About</a> </li>  
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="#">Gallery</a></li>
+			<li><a href="contact.html">Contact</a></li>
+	</ul>
+	
+  </nav>
+  <!--begin floated elements-->
+  <aside>
+    <h3>I' m a teacher, an OG, a guitar player, and a jack of all trades, master of none.</h3>
+  </aside>
+  <main>
+	  <article>
+       <h1>Contact Me</h1>	
+	   <form>
+		   <p>Enter your Name: <input name="user_name" type="text" required="required" id="user_name" value="Enter your complete name" size="50"></p>
+		   <p>Enter your email:<input name="user_email" type="email" required="required" id="user_email" value="Enter your email here" size="50"></p>
+		   <p>Leave a comment:<br>
+			  <textarea name="User Comment" cols="65" rows="10" required="required" id="User Comment">Enter your comments here</textarea></p>
+		   <p>How did you hear about us?</p>
+		   <p> 
+		     <label>
+		       <input name="Hear about us" type="radio" required="required" id="Hearaboutus_0" value="radio">
+		       Search Engine</label>
+		     <br>
+		     <label>
+		       <input name="Hear about us" type="radio" required="required" id="Hearaboutus_1" value="radio">
+		       Biz Card</label>
+		     <br>
+		     <label>
+		       <input type="radio" name="Hear about us" value="radio" id="Hearaboutus_2">
+		       Friend</label>
+		     <br>
+		     <label>
+		       <input type="radio" name="Hear about us" value="radio" id="Hearaboutus_3">
+		       Advertisement</label>
+	       </p>
+	     <p>
+	       <input name="submit" type="submit" class="submitBtn" formaction="comment-box.php" formmethod="POST" value="Send Me a Message">
+	     </p>
+      </form>
+	  </article>
+	  
+  </main>
+  <!--ends floated elements-->
+	<footer><p>Content for New footer Tag Goes Here</p></footer>
+</div><!--Closes DIV Container-->
+</body>
+</html>
